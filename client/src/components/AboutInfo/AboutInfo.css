@@ -1,0 +1,159 @@
+/* About Info CSS */
+.about-info {
+  padding: 10em 0;
+}
+.about-info-left {
+  position: relative;
+  padding-bottom: 65%;
+  width: 100%;
+}
+.about-info-left-content {
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.1);
+}
+.about-info-left-content .main-img {
+  width: 100%;
+  height: 100%;
+  animation: zoom 30s infinite ease-in-out;
+}
+.about-info-left-content .experience {
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  padding: 3em;
+  box-shadow: 6px 6px 8px -6px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.about-info-left-content .experience h2 {
+  line-height: 100%;
+  font-size: 7.2rem;
+  letter-spacing: -0.3rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.about-info-left-content .experience p {
+  line-height: 120%;
+  font-size: 2.2rem;
+  letter-spacing: -0.1rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+.about-info-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-info-right-content {
+  padding: 0 3em;
+}
+.about-info-right h2 {
+  line-height: 110%;
+  font-size: 5.4rem;
+  letter-spacing: -0.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.about-info-right p {
+  font-size: 1.7rem;
+  margin: 1.6rem 0;
+}
+.about-info-right .signature {
+  font-size: 5.8rem;
+  margin: 3rem 0;
+}
+.mc-about-circle-1 {
+  position: absolute;
+  z-index: 4;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 20px solid #fff;
+  left: 15%;
+  bottom: -4%;
+  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.09),
+    0 3px 6px 0 rgba(0, 0, 0, 0.09);
+  animation: anima3 3s 1s infinite ease-in-out;
+}
+.mc-about-circle-2 {
+  position: absolute;
+  z-index: 4;
+  top: 35%;
+  right: 1%;
+  height: 20px;
+  width: 20px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+  animation: anima1 2s 3s infinite ease-in-out;
+}
+.mc-about-circle-3 {
+  position: absolute;
+  z-index: 4;
+  bottom: 15%;
+  left: -5%;
+  width: 55px;
+  height: 55px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+  animation: anima1 3s infinite ease-in-out;
+}
+.mc-about-circle-4 {
+  position: absolute;
+  z-index: 4;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: solid 13px #fff;
+  left: 15%;
+  top: -2%;
+  box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.09),
+    0 3px 6px 0 rgba(0, 0, 0, 0.09);
+  animation: anima3 3s 1s infinite ease-in-out;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about-info {
+    padding: 5em 0;
+  }
+  .about-info-left-content .experience {
+    display: none;
+  }
+  .about-info-left-content {
+    position: relative;
+  }
+  .about-info-left {
+    padding-bottom: 2em;
+  }
+  .about-info-right h2 {
+    letter-spacing: -0.1rem;
+  }
+  .about-info-right p {
+    font-size: 1.6rem;
+  }
+  .about-info-right-content {
+    padding: 0 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-info-right h2 {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+  .about-info-right .signature {
+    font-size: 4.8rem;
+  }
+}

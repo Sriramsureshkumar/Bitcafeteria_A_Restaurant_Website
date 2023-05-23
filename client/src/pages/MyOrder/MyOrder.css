@@ -1,0 +1,71 @@
+/* My Order CSS */
+.order-container {
+  margin: 10em 0 !important;
+  height: 100% !important;
+}
+.table-container {
+  margin-top: 2em;
+  border: 3px solid #ccc;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.table-container img {
+  width: 4em;
+}
+.card-container {
+  padding: 2em;
+  border: 2px solid #ddd;
+  height: 100%;
+}
+.card-container .top-info h4 {
+  font-size: 4rem;
+  color: var(--main-color);
+  margin-top: 1em;
+}
+.card-container .top-info p {
+  font-size: 1.7rem;
+  margin: 1em 0;
+  color: var(--main-black);
+}
+.myorder-section
+  .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.order-container {
+  width: 100% !important;
+  align-items: stretch !important;
+}
+.order-container .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-6 {
+  flex: 1 !important;
+}
+
+@media only screen and (max-width: 1029px) {
+  .myorder-section
+    .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.order-container {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .order-container .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-6 {
+    padding-left: 0 !important;
+  }
+  .myorder-section
+    .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.order-container {
+    width: 100% !important;
+  }
+  .card-container .top-info p {
+    font-size: 1.6rem;
+  }
+  .card-container .top-info h4 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .img-cell {
+    display: none !important;
+  }
+  .card-container .top-info h4 {
+    font-size: 2.8rem;
+  }
+}

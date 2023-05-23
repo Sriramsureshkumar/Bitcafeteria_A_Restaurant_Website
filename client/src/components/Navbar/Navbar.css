@@ -1,0 +1,85 @@
+/* Navbar CSS */
+.navbar {
+  background-color: #fff !important;
+  padding: 0.5em 0;
+}
+.logo {
+  width: 12rem;
+}
+.right_menu {
+  display: flex;
+  align-items: center;
+}
+.right_menu a {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+  font-weight: 600;
+  color: var(--main-black);
+}
+.log-out {
+  width: 100%;
+}
+div#\:r0\: {
+  transform: translate(1115px, 472px);
+}
+.MuiTooltip-tooltip.MuiTooltip-tooltipPlacementBottom.css-ja5taz-MuiTooltip-tooltip {
+  font-size: 1.2rem;
+}
+li.MuiButtonBase-root {
+  font-size: 1.4rem;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-colorAction {
+  font-size: 2.2rem;
+}
+.MuiBadge-root .MuiBadge-badge.MuiBadge-standard {
+  font-size: 1rem;
+  background: var(--main-color);
+  color: #fff;
+}
+#mobile-menu-btn {
+  color: black;
+}
+#mobile-menu-btn svg {
+  font-size: 30px;
+}
+.menu-cart-mobile-icon {
+  margin-right: 1.85em;
+}
+.close-btn svg {
+  font-size: 2.8rem;
+}
+.item-list svg {
+  font-size: 2.5rem;
+}
+.item-list .MuiListItemText-root span {
+  font-size: 1.6rem;
+  color: var(--light-black);
+  font-weight: 400;
+}
+.item-list:hover {
+  background: var(--main-color);
+}
+.item-list:hover.item-list svg,
+.item-list:hover.item-list .MuiListItemText-root span {
+  color: #fff;
+  font-weight: 600;
+}
+.account-info {
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+}
+.account-img {
+  margin-right: 1em;
+}
+.account-desc h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.4em;
+}
+.account-desc p {
+  font-size: 1.4rem;
+}
+hr.MuiDivider-root {
+  margin: 1em 0;
+}

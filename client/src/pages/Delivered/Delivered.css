@@ -1,0 +1,66 @@
+/* Delivered CSS */
+
+.delivered-section {
+  padding: 15em 0 10em;
+  display: grid;
+  place-items: center;
+}
+.delivered-content {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 70%;
+  padding: 4em;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+}
+.delivered-content img {
+  width: 50%;
+}
+.delivered-content h2 {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  margin: 2rem 0;
+}
+.delivered-content p {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.delivered-content .main-btn {
+  font-size: 1.8rem;
+}
+/* Extra small devices (phones, 900px and down) */
+@media only screen and (max-width: 900px) {
+  .delivered-content {
+    width: 90%;
+    padding: 3em;
+  }
+  .delivered-content img {
+    width: 80%;
+  }
+}
+/* Extra small devices (phones, 900px and down) */
+@media only screen and (max-width: 768px) {
+  .delivered-content img {
+    width: 100%;
+  }
+  .delivered-content p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .delivered-content h2 {
+    font-size: 2.8rem;
+  }
+  .delivered-content p {
+    font-size: 1.6rem;
+  }
+}
