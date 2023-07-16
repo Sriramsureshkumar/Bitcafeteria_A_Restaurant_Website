@@ -58,7 +58,7 @@ const MyOrder = () => {
 
   const getCurrentOrder = () => {
     setLoading(true);
-    fetch("https://mrchef.onrender.com/myorder")
+    fetch("https://bitcafeteria.onrender.com/myorder")
       .then((response) => response.json())
       .then((data) => {
         if (data.phone) {

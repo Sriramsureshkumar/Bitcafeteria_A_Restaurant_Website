@@ -88,7 +88,7 @@ const Delivery = () => {
     };
 
     // post data
-    await fetch("https://websiteYetToBeadded.com/checkout", {
+    await fetch("https://bitcafeteria.onrender.com/checkout", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -24,7 +24,7 @@ const data: ReviewDataType[] = [
   },
   {
     id: 2,
-    name: "Sahana Sree U",
+    name: "Customer sample",
     title: "Their lunch is amazing",
     desc: " I am a regular at BIT Cafeteria and have never been disappointed by the food or service. The menu is diverse, offering a range of dishes that cater to all dietary needs, and the staff are always friendly and attentive. If you're looking for a restaurant that consistently delivers great food and a great experience, this is the place to go.",
     img: review2,
