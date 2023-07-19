@@ -37,7 +37,7 @@ app.post("/checkout", async (req, res) => {
       {
         shipping_rate_data: {
           type: "fixed_amount",
-          fixed_amount: { amount: 50, currency: "inr" },
+          fixed_amount: { amount: 5000, currency: "inr" },
           display_name: "Delivery Charge",
         },
       },
@@ -48,7 +48,7 @@ app.post("/checkout", async (req, res) => {
   });
 
   // Calculate the total amount
-  const shippingPrice = 500; // Replace with the actual shipping price in cents
+  const shippingPrice = 5000; // Replace with the actual shipping price in cents
   const totalAmount = session.amount_total + shippingPrice;
 
   // Update the checkout session with the total amount
